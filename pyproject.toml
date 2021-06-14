@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "unittesting"
+version = "0.1.0"
+description = ""
+authors = ["Ben Watson <ben.watson.developer@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-mock = "^3.6.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
