@@ -1,4 +1,3 @@
-import pytest
 from unittesting.alpha import get_alpha
 
 def test_alpha(mocker):
